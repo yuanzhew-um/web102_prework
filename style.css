@@ -9,6 +9,25 @@ body {
     width: 50px;
 }
 
+.topnav{
+    overflow:hidden;
+    background-color: lightblue;
+}
+
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover{
+    background-color: lightskyblue;
+    color:black;
+}
+
 .header {
     display: flex;
     background-color: lightblue;
@@ -21,6 +40,11 @@ body {
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -52,9 +76,10 @@ body {
     background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
-    width: 300px;
+    width: 248px;
     text-align: center;
     border-radius: 7px;
+    font-size: smaller;
 }
 
 .game-card:hover {
